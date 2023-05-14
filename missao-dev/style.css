@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #01295e;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 35px;
+}
+
+p{
+    font-size: 24px;
+    margin: 30px;
+    color: #FFFFFF;
+}
+
+input{
+    display: block;
+    background: #F9F9F9;
+    border: 5px solid #e6e6e6;
+    border-radius: 5px;
+    height: 50px;
+    width: 352px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    display: block;
+    background: #F9F9F9;
+    border: 5px solid #e6e6e6;
+    border-radius: 5px;
+    height: 100px;
+    width: 352px;
+    margin-bottom: 20px;
+}
+
+form{
+    background: #FFFFFF;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+button{
+    background: #40bb15;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.voltar{
+    background: gray;
+}
+
+div{
+    transition: opacity 1s;
+}
+
+/* Responsividade */
+@media screen and (max-width: 600px) {
+    form{
+        width: 90%;
+        padding: 15px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    input{
+        height: 25px;
+    }
+}
