@@ -1,2 +1,4 @@
 # projeto-mvp
-Projeto criado durante o evento Missão Você Programador (09/05 - 11/05)
+Site com tematica gamer. Utilizando HTML, CSS e JavaScript.
+
+O site trás um propósito simples de reunir gamers que queiram jogar juntos, e um campo de contato para tirar dúvidas.
